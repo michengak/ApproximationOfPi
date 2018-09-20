@@ -23,6 +23,7 @@ namespace ApproximationOfPi
             this.y = y;
         }
 
+
         public double X
         {
             get { return x; }
@@ -42,8 +43,9 @@ namespace ApproximationOfPi
             this.y = rnd.NextDouble();
         }
 
+        public double getX() => x;
+        public double getY() => y;
 
-     
     }
 
 

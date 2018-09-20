@@ -11,5 +11,14 @@ namespace ApproximationOfPi
 
     class Functions
     {
+        public static double ProvideHypotenuse(Coordinates coordinates)
+        {
+            return Math.Sqrt(Math.Pow(coordinates.getX(), 2)
+                + Math.Pow(coordinates.getY(), 2));
+        }
+
+
     }
+
+
 }
